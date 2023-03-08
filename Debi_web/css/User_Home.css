@@ -1,0 +1,78 @@
+﻿
+*{margin:0; padding:0;}
+
+.Wrap_div { width: 1000px; margin-left: auto; margin-right: auto; border-right: 1px solid rgb(232, 231, 231)}
+
+
+/* -------------------------- Top navigation Bar ------------------------------------*/
+
+.navbar { width: 1000px; background-color: #555; overflow: auto; height: 70px; position:fixed }    
+.navbar a { float: left; text-align: center; padding: 12px; color: white; text-decoration: none; }
+.Name { margin-left: 20px; font-size: 25px; margin-top: 9px; font-family: Sans-serif;}
+.Login { margin-top: 13px; margin-left: 170px; font-size: 17px;}
+
+
+
+/* -------------------------- Side navigation menu ------------------------------------*/
+
+.sidebar { margin: 0; padding: 0; width: 200px; background-color: #f1f1f1; position: fixed; height: 100%; overflow: auto; margin-top:70px }
+.sidebar a { display: block; color: black; padding: 16px; text-decoration: none; }       
+.sidebar a.active { background-color: #04AA6D; color: white; }        
+.sidebar a:hover:not(.active) { background-color: #555; color: white; }
+div.content { margin-left: 200px; padding: 1px 16px; height: 1000px;  padding-top:70px}
+
+.productList { border: 1px solid #6c757d; margin-bottom: 10px; padding: 15px; border-radius: 3px; margin-right: 50px;}
+.content_top { width: 784px; height: 41px; margin-bottom: 10px; background-color: #04AA6D; color: white; font-size: 30px; padding-top: 8px; position: fixed; z-index: 2;}.content_top2 { width: 785px;  height: 41px; margin-bottom: 10px; color: white; font-size: 30px; padding-top: 8px; position: fixed; z-index: 2;}
+.content_top_2 { width: 784px; height: 51px; margin-bottom: 10px; color: white; font-size: 30px; padding-top: 8px; z-index: 1;}
+.topnav input[type=text] { float: right; padding: 6px; border: none; margin-top: 8px; margin-right: 16px; font-size: 17px;}
+.Search { width: 400px; height: 30px;}
+.btnsearch { width: 80px; height: 33px;}
+.auto-style3 { width: 782px; height: 56px;}
+.content_top2 { width: 784px; height: 41px; margin-bottom: 10px; color: white; font-size: 30px; padding-top: 8px; position: fixed; z-index: 2;}
+.content_top_3 { width: 784px; height: 51px; margin-bottom: 10px; color: white; font-size: 30px; padding-top: 8px; z-index: 1;}
+
+
+h3{color:forestgreen}
+h3{color:forestgreen}
+ul{list-style:none;}
+ul li{padding-bottom:10px;}
+.price{background-color: #04AA6D; color: white; width:100px; height:30px;  margin-left:305px; margin-top:-40px; padding-left:10px; padding-top:10px; font-weight:bold}
+
+
+.Checkbox {color: black;font-size: 15px; padding-top: 20px; padding-bottom: 20px }
+.Checkbox ul li { display: inline-block;  margin-right: 30px }
+.filter { width: 70px; height: 25px }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    
+    .sidebar { width: 100%; height: auto; position: relative; }
+    .sidebar a { float: left; }
+    div.content { margin-left: 0; }
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    .sidebar a { text-align: center; float: none; }
+    .navbar a { float: none; display: block; }
+}
